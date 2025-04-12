@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"] # Or another build backend like hatchling, flit_core
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "package_publishing"
+version = "0.1.0"
+authors = [
+  { name="Your Name", email="your@email.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8" # Specify compatible Python versions
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Match your LICENSE file
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    # List runtime dependencies here, e.g.:
+    # "requests>=2.20.0",
+]
+
+[project.urls] # Optional but recommended
+Homepage = "https://github.com/craftsmandigital/package_publishing"
+
